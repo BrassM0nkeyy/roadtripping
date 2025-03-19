@@ -1,3 +1,9 @@
+# roadtripping
+
+A fast way to find an unique road trip experiance tailered to you.
+
+currently a react shell
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

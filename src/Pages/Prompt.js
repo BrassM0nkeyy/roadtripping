@@ -4,7 +4,7 @@ import {link} from "react-dom";
 // import 'range-slider-input/dist/style.css';
 
 
-function prompting(){
+export default function Prompt(){
     <div>
         
         <h2>Where do you want to go</h2>
@@ -26,7 +26,7 @@ function prompting(){
         <h2>Culture</h2>
 
         <h2>Relaxation</h2>
-        
+
 
     </div>
 }

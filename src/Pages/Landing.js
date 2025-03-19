@@ -2,7 +2,7 @@ import React from "react";
 import {link} from "react-dom";
 
 
-function homepage(){
+export default function Landing(){
 
     return(
         <div>
@@ -29,3 +29,4 @@ function homepage(){
     )
 
 }
+
