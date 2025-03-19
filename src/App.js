@@ -1,5 +1,7 @@
 import logo from './car.png';
 import './App.css';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -11,14 +13,9 @@ function App() {
         <p>
           lets go somewhere
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Plan a Trip
-        </a>
+        <Link to="/landing">
+            <button>Explore</button>
+        </Link>
       </header>
     </div>
   );

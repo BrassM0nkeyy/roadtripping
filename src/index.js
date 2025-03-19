@@ -8,8 +8,11 @@ import './index.css';
 import App from './App';
 import Landing from "./Pages/Landing"
 import Prompt from "./Pages/Prompt"
+// import Trip from "./Pages/Trip"
+
 // import Header-page from "./Header-page"
 import reportWebVitals from './reportWebVitals';
+import Trip from './Pages/Trip';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,10 +23,13 @@ root.render(
 
   <BrowserRouter>
   <Routes>
-    <Route path="/" element={<App />}>
+    <Route path="/" element={<App />} />
     <Route path="/landing" element={<Landing />} />
     <Route path="/prompt" element={<Prompt />} />
-    </Route>
+    <Route path="/trip" element={<Trip />} />
+
+
+
   </Routes>
 
   </BrowserRouter> 

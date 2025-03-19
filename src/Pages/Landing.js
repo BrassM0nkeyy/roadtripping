@@ -1,9 +1,7 @@
 import React from "react";
-import {link} from "react-dom";
-
+import { Link } from "react-router-dom";
 
 export default function Landing(){
-
     return(
         <div>
             <h1>
@@ -18,15 +16,11 @@ export default function Landing(){
             </ul>
 
             <p>
-            <link to="/prompting">
+            <Link to="/prompt">
                 <button>New trip +</button>
-            </link>
+            </Link>
             </p>
-
-
-            
         </div>
     )
-
 }
 
